@@ -1,25 +1,17 @@
 #include<iostream>
 using namespace std;
-int main(){
-	int size;
-	cout << "Enter Size Of Array : ";
-	cin >> size;
-	int arr[size];
-	
-	for(int i=0;i<size;i++){
-	 	cout << "Enter the Array[" << i << "] : ";
-		cin >> arr[i];
-	}
 
-	cout << endl;
+int main()
+{  
 	
-	 for(int i=0;i<size;i++){
-	 	if(arr[i]%2==0){
-	 		cout << "Even Number: " << arr[i] << "  ";
-	 		cout << endl;
-		 }
-	 }
-	 
+  for(int i=1;i<=5;i++)
+   {
+	  for(int j=i;j>=1;j--)
+      {
+	    cout << j << " ";
 	
-	return 0;
+	  }
+         cout << endl;
+   }
+    return 0;
 }
